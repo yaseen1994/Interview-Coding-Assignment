@@ -21,9 +21,9 @@ Write code for a HTML menu display for our business website collegedoors.com whe
 
 In order to work on assignments, you must do the following:
 
-1.Fork the GitHub repository containing files at to create a copy under your own account.
+1.Fork the GitHub repository https://github.com/ritukbhatia/Interview-Coding-Assignment.git containing files at to create a copy under your own account.
 
-2. Clone your forked GitHub c to your computer so that you can edit the files locally on your own machine.
+2. Clone your forked GitHub repository to your computer so that you can edit the files locally on your own machine.
 
 3. Edit the Assignment file contained in the git repository and place your solution in that file (Please ensure to name the file as per the Assignmnet number only).
 

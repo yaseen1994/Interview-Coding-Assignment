@@ -12,12 +12,17 @@ For example : if the input string is  "Today is Sunday" Output should be : "yadn
 Assignment 3.
 Write a function takes in a decimal number and prints a binary equivanet of the same.
 
+Assignment 4.
+Write a program that takes array elements as input and then adds all the elements of that array.
+
+Assignment 5.
+Write code for a HTML menu display for our business website collegedoors.com where students can come and navigate.
+
 In order to complete this assignment, you must do the following:
 
 
-1. Fork the GitHub repository containing the  to create a copy under your own account.
-2. Clone your forked GitHub repository to your computer so that you can edit the files locally on your own machine.
-3. Edit the files contained in the git repository and place your solution in those files (Note that the files are placed assignmnet wise. Please do not rename the file).
-4. Commit your completed  file into YOUR git repository and push your git branch to the GitHub repository under your account.
-5. Submit to Coursera the URL to your GitHub repository that contains the completed R code for the assignment.
-Grading
+1. Clone the GitHub repository branch to your computer so that you can edit the files locally on your own machine.
+2. Edit the files contained in the git repository and place your solution in those files (Note that the files are placed assignmnet wise. Please do not rename the file).
+3. Commit your completed  files and push your git branch to the GitHub repository .
+4. Let us know when you are done !
+All the very best :-)

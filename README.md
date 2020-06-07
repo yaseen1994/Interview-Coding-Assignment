@@ -11,7 +11,7 @@ Write a function that takes String as an input and prints the reverse of it on c
 For example : if the input string is  "Today is Sunday" Output should be : "yadnuS si yadoT"
 
 Assignment 3.
-Write a function takes in a decimal number and prints a binary equivanet of the same.
+Write a function takes in a decimal number and prints a binary equivalet of the same.
 
 Assignment 4.
 Write a program that takes array elements as input and then adds all the elements of that array.

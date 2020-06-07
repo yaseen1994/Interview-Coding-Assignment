@@ -1,6 +1,7 @@
 # Interview-Coding-Assignmnet
-This is to review the coding assignments of candidates
+This is to review the coding assignments of candidates.
 This  programming assignment will require you to write a functions in a coding language of your choice.
+There are 5 Assignments. Complete as many as you can.
 
 Assignment 1. 
 Write a function to read a String input and print it on Console.
@@ -18,11 +19,16 @@ Write a program that takes array elements as input and then adds all the element
 Assignment 5.
 Write code for a HTML menu display for our business website collegedoors.com where students can come and navigate.
 
-In order to complete this assignment, you must do the following:
+In order to work on assignments, you must do the following:
 
+1.Fork the GitHub repository https://github.com/ritukbhatia/Interview-Coding-Assignment.git containing files at to create a copy under your own account.
 
-1. Clone the GitHub repository branch to your computer so that you can edit the files locally on your own machine.
-2. Edit the files contained in the git repository and place your solution in those files (Note that the files are placed assignmnet wise. Please do not rename the file).
-3. Commit your completed  files and push your git branch to the GitHub repository .
-4. Let us know when you are done !
-All the very best :-)
+2. Clone your forked GitHub repository to your computer so that you can edit the files locally on your own machine.
+
+3. Edit the Assignment file contained in the git repository and place your solution in that file (Please ensure to name the file as per the Assignmnet number only).
+
+4. Commit your completed files into YOUR git repository and push your git branch to the GitHub repository under your account.
+
+5. Let us know URL to your GitHub repository that contains the completed assignment.
+
+ALL THE BEST !

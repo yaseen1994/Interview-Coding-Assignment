@@ -22,7 +22,11 @@ Write code for a HTML menu display for our business website collegedoors.com whe
 In order to work on assignments, you must do the following:
 
 1.Fork the GitHub repository containing files at to create a copy under your own account.
+
 2. Clone your forked GitHub c to your computer so that you can edit the files locally on your own machine.
+
 3. Edit the Assignment file contained in the git repository and place your solution in that file (Please ensure to name the file as per the Assignmnet number only).
+
 4. Commit your completed files into YOUR git repository and push your git branch to the GitHub repository under your account.
+
 5. Let us know URL to your GitHub repository that contains the completed assignment.

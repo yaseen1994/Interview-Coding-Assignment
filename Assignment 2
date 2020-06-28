@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment 2</title>
+</head>
+<body>
 
+<form action="" method="post">
+Enter your string to reverse: <input type="text" name="input_data" required><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+
+<?php
+if (isset($_POST['submit'])) {
+
+    $input_data1 = $_POST['input_data'];
+
+
+function reverse($input_data){ 
+    for($i=strlen($input_data)-1, $j=0; $j<$i; $i--, $j++)  
+    { 
+        $temp = $input_data[$i]; 
+        $input_data[$i] = $input_data[$j]; 
+        $input_data[$j] = $temp; 
+    } 
+    #return $input_data; 
+
+    function console_output($output, $script = true) {
+    $input = 'console.log(' . json_encode($output, JSON_HEX_TAG) . ');';
+    if ($script) {
+        $input = '<script>' . $input . '</script>';
+    }
+    echo $input;
+}
+
+console_output($input_data); 
+
+} 
+
+reverse($input_data1); 
+
+  }
+
+?>
+
+
+
+      
+</body>
+</html>

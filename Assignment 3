@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment 3</title>
+</head>
+<body>
+
+<form action="" method="post">
+Enter your a decimal number: <input type="text" name="input_data" required><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+
+
+
+<?php
+if (isset($_POST['submit'])) {
+
+    $n = $_POST['input_data'];
+
+function decToBinary($n) 
+{ 
+    // array to store 
+    // binary number 
+    $binaryNum; 
+  
+    // counter for binary array 
+    $i = 0; 
+    while ($n > 0)  
+    { 
+  
+        // storing remainder 
+        // in binary array 
+        $binaryNum[$i] = $n % 2; 
+        $n = (int)($n / 2); 
+        $i++; 
+    } 
+  
+    // printing binary array 
+    // in reverse order 
+    for ($j = $i - 1; $j >= 0; $j--) 
+        echo $binaryNum[$j]; 
+}
+
+// Driver Code  
+decToBinary($n); 
+
+  }
+
+?>
+
+
+
+      
+</body>
+</html>
+
+
 

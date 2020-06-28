@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment 1</title>
+</head>
+<body>
 
+<form action="" method="post">
+Enter your input: <input type="text" name="input_data" required><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+
+
+
+<?php
+if (isset($_POST['submit'])) {
+
+    $input_data = $_POST['input_data'];
+
+function console_output($output, $script = true) {
+    $input = 'console.log(' . json_encode($output, JSON_HEX_TAG) . ');';
+    if ($script) {
+        $input = '<script>' . $input . '</script>';
+    }
+    echo $input;
+}
+
+console_output($input_data); 
+
+  }
+
+?>
+
+
+
+      
+</body>
+</html>
